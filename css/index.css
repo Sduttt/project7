@@ -1,0 +1,121 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.nav-items{
+    display: flex;
+}
+.nav-item{
+    padding: 0 30px;
+    font-size: 16px;
+    font-family: Poppins, "Fredoka One";
+}
+nav > img:last-child{
+    width: 250px;
+    margin-right: -10px;
+}
+.left-section > h3{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 200;
+}
+.active-item{
+    font-size: 17px;
+    color: #FE5E35;
+}
+.intro-section{
+    margin-left: 30px;
+}
+.left-section > h1{
+    font-family: "Fredoka One";
+    font-size: 65px;
+}
+.sub-headline > img{
+    background-color: #FE5E35;
+    border-radius: 50%;
+    width: 15px;
+    padding: 6px;
+    margin-right: 10px;
+    margin-left: 80px;
+}
+.sub-headline{
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: lighter;
+    margin-top: -2px;
+}
+.headphone-div > img:last-child{
+    position: absolute;
+    top: 90px;
+    right: 150px;
+    width: 400px;
+}
+.headphone-div > img:first-child{
+    position: absolute;
+    top: 330px;
+    right: 465px;
+    z-index: 1;
+    width: 130px;
+}
+.discount-content{
+    position: absolute;
+    top: 350px;
+    right: 485px;
+    z-index: 2;
+    color: #ffffff;
+    font-family: "Fredoka One";
+    font-weight: lighter;
+}
+.discount-content > h4{
+    margin-bottom: -30px;
+    margin-left: 13px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.discount-content > h1{
+    font-size: 40px;
+}
+.dot{
+    padding: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    bottom: 220px;
+    left: 880px;
+    margin: 12px 12px 0 12px;
+}
+.yellow-dot{
+    background-color: #FBD104;
+}
+.tomato-dot{
+    background-color: #FE5E35;
+}
+.black-dot{
+    background-color: #000000;
+}
+.action-btn{
+    color: #ffffff;
+    background-color: #FE5E35;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+}
+.right-section > .action-btn{
+    position: relative;
+    bottom: 180px;
+    left: 900px;
+}
+.text{
+    color: #9F9F9F;
+    margin: 10px 540px 50px 10px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: lighter;
+}
+.action-btns > .action-btn{
+    margin: 0 20px;
+}
