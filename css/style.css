@@ -1,0 +1,158 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px 30px;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    font-size: 20px;
+    font-family: Poppins, "Fredoka One";
+}
+.nav-item{
+    padding: 0 30px;
+    cursor: pointer;
+    font-weight: normal;
+}
+.nav-item:hover{
+    color: #FE5E35;
+    font-weight: bold;
+}
+.navM{
+    display: none;
+}
+.signbtn{
+    display: none;
+}
+.intro-section{
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-between;
+}
+button{
+    color: #ffffff;
+    background-color: #FE5E35;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+}
+h3{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 200;
+}
+.left-section > h1{
+    font-family: "Fredoka One";
+    font-size: 50px;
+}
+.sub-headline > img{
+    background-color: #FE5E35;
+    border-radius: 50%;
+    width: 15px;
+    padding: 6px;
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-bottom: -5px;
+}
+.sub-headline{
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: lighter;
+    margin-top: -2px;
+}
+.text{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: lighter;
+    width: 50vw;
+}
+.headphone{
+    width: 450px;
+}
+.discount{
+    position: relative;
+    bottom: 200px;
+    right: 20px;
+    width: 120px;
+}
+.discount-content{
+    color: #FFFFFF;
+    position: relative;
+    bottom: 320px;
+    left: 5px;
+    font-family: "Fredoka One";
+}
+.discount-content > h1{
+    position: relative;
+    bottom: 10px;
+}
+.dot{
+    padding: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 12px 12px 0 12px;
+}
+.dots{
+    margin: 20px 0;
+}
+.yellow-dot{
+    background-color: #FBD104;
+}
+.tomato-dot{
+    background-color: #FE5E35;
+}
+.black-dot{
+    background-color: #000000;
+}
+.cart{
+    position: relative;
+    bottom: 220px;
+    left: 150px;
+}
+
+
+@media screen and (max-width: 800px){
+    .nav-items{
+        display: none;
+    }
+    .navM{
+        display: inline;
+    }
+    .navM{
+        margin: 5px;
+        width: 35px;
+        height: 30px;
+    }
+    .logo{
+        width: 80px;
+    }
+    .signimg{
+        display: none;
+    }
+    .signbtn{
+        display: inline;
+        padding: 10px 20px;
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 10px;
+    }
+    h3{
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .left-section > h1{
+        font-family: "Fredoka One";
+        font-size: 45px;
+    }
+    .text{
+        width: 80vw;
+    }
+}
